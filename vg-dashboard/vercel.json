@@ -1,4 +1,9 @@
 {
+  "functions": {
+    "api/proxy.js": {
+      "runtime": "nodejs18.x"
+    }
+  },
   "rewrites": [
     { "source": "/dashboard", "destination": "/api/proxy" }
   ]
